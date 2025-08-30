@@ -11,7 +11,7 @@ using namespace std;
 //define the main() function/method
 int main()
 {
-    int num1 = 1-10;
+    int num1 = 7;
     int num2 = 0;
     int quotient = num1 / num2;
 
