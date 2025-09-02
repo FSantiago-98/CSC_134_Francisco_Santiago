@@ -7,12 +7,12 @@
 #include <string>
 
 //use standard namespace
-using namespace standard;
+using namespace std;
 
 //define main() function
 int main()
 {
-  string myFavotireMovie = "The Incredibles";
+  string myFavoriteMovie = "The Incredibles";
   string mainCharacter1 = "Mr Incredible";
   string mainCharacter2 = "ElastiGirl";
   string mainCharacter3 = "Dash";
