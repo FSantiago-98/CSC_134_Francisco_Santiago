@@ -18,8 +18,12 @@ int main()
   string mainCharacter3 = "Dash";
   string mainCharacter4 = "Violet";
 
-  cout << "My favorite movie is "<<  myFavoriteMovie << endl;
-  cout << "The main characters are " << mainCharacter1 <<  mainCharacter2 <<  mainCharacter3 << " and" <<  mainCharacter4 << endl;
+  cout << "My favorite movie is " << myFavoriteMovie << endl;
+  cout << "The main characters are: " << endl;
+  cout << mainCharacter1 << endl;
+  cout << mainCharacter2 << endl;
+  cout << mainCharacter3 << endl;
+  cout << mainCharacter4 << endl;
 
   return 0;
 }
