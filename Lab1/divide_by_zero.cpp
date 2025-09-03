@@ -11,9 +11,7 @@ using namespace std;
 //define the main() function/method
 int main()
 {
-    int num1 = 7;
-    int num2 = 0;
-    int quotient = num1 / num2;
+    int quotient = 7 / 0;
 
     //use the standard output for the console and print the quotient of the variables defined above
     std::cout << quotient << std::endl;
