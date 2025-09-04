@@ -17,9 +17,9 @@ int main()
     int denTempjuly = 88;
     int phoeTempjuly = 106;
     float tempInc = 0.02;
-    float newNYCtemp = nycTempjuly * tempInc;
-    float newDentemp = denTempjuly * tempInc;
-    float newPhoetemp = phoeTempjuly * tempInc;
+    float newNYCtemp = (nycTempjuly * tempInc) + nycTempjuly;
+    float newDentemp = (denTempjuly * tempInc) + denTempjuly;
+    float newPhoetemp = (phoeTempjuly * tempInc) + phoeTempjuly;
 
     //print the new temps to the console
     cout << "The new average July temperature for NYC is: " << newNYCtemp << endl;
