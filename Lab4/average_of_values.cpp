@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
     //use double variables to define the three values and average
-    int num1, num2, num3, average;
+    double num1, num2, num3, average;
 
     //use cout to prompt user to enter three values
     cout << "Enter three values to calculate the average: " << endl;
