@@ -21,10 +21,11 @@ int main()
     cin >> letter; 
 
     //use an if statement to determine whether the input character is a vowel or consonant
-    if (letter == 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'){
+    if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' ||
+        letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U') {
         cout << "The letter, " << letter << ", is a vowel." << endl;
-    }    
-    else{
+    } 
+    else {
         cout << "The letter, " << letter << ", is a consonant." << endl;
     }
         
