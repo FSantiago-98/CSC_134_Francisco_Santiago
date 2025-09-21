@@ -15,14 +15,14 @@ int main()
 {
     float lengthX = 3; //length of side x
     float heightY = 4; //height of side y
-    float pi = 3.14159;
+    float pi = M_PI; //define pi using cmath constant
     float hypotenuseC = sqrt((pow(lengthX, 2) + pow(heightY, 2))); //use math functions to calculate the hypotenuse
-    float theta = (atan2(heightY /lengthX)) * (180/pi); //calculate theta in degrees
-    float angleTheta = 53.13
+    float theta = (atan2(heightY , lengthX)) * (180/pi); //calculate theta in degrees
+    float angleTheta = 53.1301;
 
-    cout << theta << fixed << setprecision(2) << endl;
+    cout << theta << endl;
 
-    if (theta = angleTheta){
+    if (theta == angleTheta){
          cout << "This is a 3-4-5 triangle." << endl;
     }
         else{

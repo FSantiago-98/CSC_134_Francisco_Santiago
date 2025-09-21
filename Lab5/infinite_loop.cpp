@@ -10,9 +10,10 @@ using namespace std;
 
 //define the main function
 int main()
-
-while (true){
+{
+    while (true){
     cout << "This is an infinite loop!" << endl;
+}
 
     return 0;
 }
