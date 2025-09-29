@@ -6,12 +6,12 @@
 #include <iostream>
 
 //use the namespace standard
-using namespace std
+using namespace std;
 
 //define the main function
 int main()
 {
-int num = 0 //initialize an integer variable of 0
+int num = 0; //initialize an integer variable of 0
 
   //use a for loop to iterate until num is equal to 10
   for (num = 0; num < 10; num++){
@@ -21,4 +21,5 @@ cout << num << endl;
 return 0;
   
 }
+
 
