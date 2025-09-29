@@ -19,7 +19,9 @@ cout << "Number Number Squared" << endl;
 cout << "-------------------------------" << endl;
   //use a for loop to iterate from 0 to 100 and print out the minNum and their square
   for (minNum = 0; minNum < maxNum; minNum++){
-cout << minNum << "\t\t" << minNum * minNum << endl;}
+cout << minNum << "\t\t" << minNum * minNum << endl;
+  }
 
 return 0;
+  
 }
