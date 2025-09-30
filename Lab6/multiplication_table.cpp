@@ -11,14 +11,16 @@ using namespace std;
 //define the main function
 int main()
 {
-//define an integer variable to use for user input
-int num = 0; 
-int userNum;
-//use cout and cin to ask user for input
-cout << "Please enter an integer value: " << endl;
-cin >> userNum;
-for (num = 0; num < 12; num++){
-cout << num * userNum << endl;
+    //define an integer variable to use for user input
+    int num = 0; 
+    int userNum;
+
+    //use cout and cin to ask user for input
+    cout << "Please enter an integer value: " << endl;
+    cin >> userNum;
+
+    for (num = 0; num <= 12; num++){
+    cout << num * userNum << endl;
 }
 
 return 0;

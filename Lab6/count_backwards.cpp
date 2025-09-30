@@ -11,10 +11,13 @@ using namespace std;
 //define the main function
 int main()
 {
-int num = 100;  //initialize an integer variable of 100
+
+  int num = 100;  //initialize an integer variable of 100
+
   //use a for loop to count back from 100 and print out the num every iteration
-  for (num = 100; num > 1; num--){
-cout << num << endl;
+  for (num = 100; num >= 1; num--){
+  cout << num << endl;
+
   }
 
 return 0;
