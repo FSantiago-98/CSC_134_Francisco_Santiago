@@ -12,10 +12,17 @@ using namespace std;
 int main()
 {
   double membership = 250,000; //accumulator variable that will increase after each year when added to newYearlyprice
-  double percentInc = 1.06; //variable that holds the percentage increase 
-  double newYearlyprice = membership * percentInc
+  double percentInc = 0.06; //variable that holds the percentage increase 
+  double amountIncperYear = membership * percentInc; //determines the amount of increase per year
   int year;
-  
+
+  for (year = 0; year <= 5; year++){
+      cout << "The new yearly price for year " << year << " is: " << membership << endl;
+      membership += amountIncperYear
+        }
+return 0;
+}
+
 
   
   
