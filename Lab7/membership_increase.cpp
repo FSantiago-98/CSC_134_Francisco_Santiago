@@ -11,10 +11,11 @@ using namespace std;
 //define the main funstion
 int main()
 {
-  double membership = 250,000; //variable that holds the current cost of membership
-  double percentInc = 0.06; //variable that holds the percentage increase 
-  double newYearlyprice;
+  double membership = 250,000; //accumulator variable that will increase after each year when added to newYearlyprice
+  double percentInc = 1.06; //variable that holds the percentage increase 
+  double newYearlyprice = membership * percentInc
   int year;
+  
 
   
   
