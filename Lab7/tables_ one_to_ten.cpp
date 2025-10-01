@@ -19,7 +19,10 @@ int main()
     {
         for (num2 = 1; num2 <= 10; num2++)
         {
-            cout << num1 * num2 << "\t" << endl;
+            cout << num1 * num2 << "\t";
         }
+        cout << endl;
     }
+
+    return 0;
 }
