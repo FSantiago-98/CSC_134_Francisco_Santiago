@@ -1,6 +1,6 @@
 //@author: Francisco Santiago
 //@date:9/28/25
-//@purpose: use a for loop to print a multiplactio table an integer input
+//@purpose: use a for loop to print a multiplaction table for an integer input
 
 //include the iostream directive
 #include <iostream>
@@ -11,7 +11,7 @@ using namespace std;
 //define the main function
 int main()
 {
-    //define an integer variable to use for user input
+    //define an integer variable to use for user input and num for for loop
     int num = 0; 
     int userNum;
 
