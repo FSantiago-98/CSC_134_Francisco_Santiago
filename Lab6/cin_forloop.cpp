@@ -1,6 +1,6 @@
 //@author: Francisco Santiago
 //@date: 9/28/25
-//@purpose: use cin to receive input from user and then use a for loop to iterate and print out up until the input
+//@purpose: use cin to receive input from user and then use a for loop to iterate and print up until the input
 
 //include the iostream directive
 #include <iostream>
