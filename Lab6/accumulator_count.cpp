@@ -24,7 +24,7 @@ accumulator += 1; //add 1 for every iteration of the for loop to the accumulator
 
 }
 
-cout << "The accumulator value is: " << accumulator << endl;
+cout << "The accumulator value is: " << accumulator << endl; //prints a string with accumulator value
 
 return 0;
 
