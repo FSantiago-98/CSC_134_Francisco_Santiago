@@ -18,7 +18,8 @@ int main()
     //use cout and cin to ask user for input
     cout << "Please enter an integer value: " << endl;
     cin >> userNum;
-
+    
+    //prints out a multiplication table by multiplying num by the variable userNum
     for (num = 0; num <= 12; num++){
     cout << num * userNum << endl;
 }
