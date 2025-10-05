@@ -19,9 +19,9 @@ int main()
     {
         for (num2 = 1; num2 <= 10; num2++)
         {
-            cout << num1 * num2 << "\t";
+            cout << num1 * num2 << "\t"; //print the product of num1 and num2 followed by a tab
         }
-        cout << endl;
+        cout << endl; //create a new line after every loop
     }
 
     return 0;
