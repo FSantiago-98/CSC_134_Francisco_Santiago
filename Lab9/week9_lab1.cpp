@@ -12,8 +12,6 @@ using namespace std;
 //include ofstream object
 ofstream outFile;
 
-
-
 //define the main function
 int main()
 {
