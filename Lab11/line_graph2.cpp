@@ -32,11 +32,11 @@ int main(){
                 cout << " ";
                 }
             }
-           cout << endl;
+           cout << endl; //starts a new line after for loop that builds y axis with points
         }
-            cout << " ";
+            cout << " "; //prints space to align x and y axis
 
-            for (int j : xAxis){
+            for (int j : xAxis){ //print the x axis
                     cout << "|" << j;
                 }
             return 0;
