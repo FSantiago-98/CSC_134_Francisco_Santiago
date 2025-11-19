@@ -9,8 +9,8 @@
 using namespace std;
 
 //define the function to calculate average
-double averageValues(double int1, double int2, double int3){
-  return (int1 + int2 + int3) / 3;
+double averageValues(double num1, double num2, double num3){
+  return (num1 + num2 + num3) / 3;
 }
 
 //define the main function
