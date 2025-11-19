@@ -21,5 +21,5 @@ void displayWelcome(){
 int main(){
   cout << "Im in main.\n"; //Prints out a string that clarifies we are in the main function
   displayWelcome() //calls the displayWelcome function and displays the strings in it
-cout << "Im back in main>\n"; //clarifies we are back in main after calling displayWelcome
+  cout << "Im back in main>\n"; //clarifies we are back in main after calling displayWelcome
 return 0;
