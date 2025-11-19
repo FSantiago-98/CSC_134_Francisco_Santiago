@@ -21,7 +21,7 @@ int main(){
   int result = 0
 
   //prompt user to enter an integer value
-  cout << "Please enter an integr value: \n"
+  cout << "Please enter an integr value: ";
   cin >> num; //retrieve number entered and assign it to num
   result = squareNumber(num);
   cout << "The square of " << num << " is " << result << endl;
