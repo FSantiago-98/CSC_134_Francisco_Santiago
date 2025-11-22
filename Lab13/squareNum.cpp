@@ -17,8 +17,8 @@ int squareNumber(int num1){
 //define the main function
 int main(){
   //define variables
-  int num = 0
-  int result = 0
+  int num = 0;
+  int result = 0;
 
   //prompt user to enter an integer value
   cout << "Please enter an integr value: ";

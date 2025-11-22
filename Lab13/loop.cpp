@@ -12,8 +12,9 @@ using namespace std;
 void loop(int num1){
   for (int count = 1; count <= num1; count++){
     cout << "This is loop number " << count << endl;
-    return;
-  }
+    }
+  return;
+}
 
 //define the main function
 int main(){
@@ -25,7 +26,7 @@ int main(){
   cin >> num;
 
   //call on the loop function to loop over the entered value
-  loop(num)
+  loop(num);
 
   return 0;
 }

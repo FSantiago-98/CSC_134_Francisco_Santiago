@@ -3,7 +3,7 @@
 //@purpose: use a function to display a message to the console
 
 //include directives
-#incude <iostream>
+#include <iostream>
 
 //use namespace standard
 using namespace std;
@@ -14,12 +14,17 @@ void displayWelcome(){
   cout << "==============================\n";
   cout << "C++ Function Demonstration\n";
   cout << "==============================\n";
+
   return;
+
   }
 
 //define the main function
 int main(){
   cout << "Im in main.\n"; //Prints out a string that clarifies we are in the main function
-  displayWelcome() //calls the displayWelcome function and displays the strings in it
-  cout << "Im back in main>\n"; //clarifies we are back in main after calling displayWelcome
+  displayWelcome(); //calls the displayWelcome function and displays the strings in it
+  cout << "Im back in main.\n"; //clarifies we are back in main after calling displayWelcome
+
 return 0;
+
+}

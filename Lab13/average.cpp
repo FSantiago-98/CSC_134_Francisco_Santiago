@@ -26,7 +26,7 @@ int main(){
   cin >> val1 >> val2 >> val3;
 
   //calculate average using the averageValues function
-  total = averageValues(val1, val2, val3)
+  total = averageValues(val1, val2, val3);
 
   //display the average
   cout << "The average is " << total << endl;
